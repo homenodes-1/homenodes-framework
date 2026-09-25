@@ -19,3 +19,4 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - Framework outline with five domain headings (drafts/HomeNodes-Framework-v0.1.md)
 - Literature review of existing compute governance proposals
 - Project roadmap (ROADMAP.md)
+- Risk register (RISK_REGISTER.md)
