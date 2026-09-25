@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="hn-map" name="Governance Framework Map">
+    <mxGraphModel dx="1654" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontColor=#1F2937;" value="&lt;b style=&quot;font-size:22px&quot;&gt;HomeNodes Governance Framework Map&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;Five governance domains for residential AI compute nodes (v0.1)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="600" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="node" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1F2937;strokeColor=#111827;fontColor=#FFFFFF;strokeWidth=2;" value="&lt;b style=&quot;font-size:16px&quot;&gt;Residential&lt;br&gt;Compute Node&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Household hardware running&lt;br&gt;third-party AI workloads&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="220" x="490" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sec" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=2;fontColor=#1E3A8A;arcSize=12;spacing=8;" value="&lt;b style=&quot;font-size:15px&quot;&gt;1. Security Standards&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Minimum controls, isolation from household network, patching, incident response&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="490" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="priv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;strokeWidth=2;fontColor=#4C1D95;arcSize=12;spacing=8;" value="&lt;b style=&quot;font-size:15px&quot;&gt;2. Privacy Obligations&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Renter data, household exposure, cross-border flows, PIPEDA / Alberta PIPA&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="870" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;fontColor=#14532D;arcSize=12;spacing=8;" value="&lt;b style=&quot;font-size:15px&quot;&gt;3. Zoning and Land Use&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Home-based business rules, electrical code, noise and heat, grid load&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="780" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="liab" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=2;fontColor=#78350F;arcSize=12;spacing=8;" value="&lt;b style=&quot;font-size:15px&quot;&gt;4. Liability Allocation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Insurance, platform and ISP terms, renter misuse, property damage&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="200" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="comp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;fontColor=#7F1D1D;arcSize=12;spacing=8;" value="&lt;b style=&quot;font-size:15px&quot;&gt;5. Regulatory Compliance&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Export controls, compute reporting, tax and registration, operator identity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="node" style="endArrow=none;html=1;strokeColor=#6B7280;strokeWidth=2;" target="sec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="node" style="endArrow=none;html=1;strokeColor=#6B7280;strokeWidth=2;" target="priv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="node" style="endArrow=none;html=1;strokeColor=#6B7280;strokeWidth=2;" target="zone">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="node" style="endArrow=none;html=1;strokeColor=#6B7280;strokeWidth=2;" target="liab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="node" style="endArrow=none;html=1;strokeColor=#6B7280;strokeWidth=2;" target="comp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="sec" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#9CA3AF;fontSize=10;fontColor=#4B5563;labelBackgroundColor=#FFFFFF;curved=1;" target="priv" value="Isolation protects&lt;br&gt;renter and household data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="priv" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#9CA3AF;fontSize=10;fontColor=#4B5563;labelBackgroundColor=#FFFFFF;curved=1;" target="zone" value="Grid load and scale&lt;br&gt;trigger reporting duties">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="zone" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#9CA3AF;fontSize=10;fontColor=#4B5563;labelBackgroundColor=#FFFFFF;" target="liab" value="Commercial use changes&lt;br&gt;insurance and liability">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="liab" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#9CA3AF;fontSize=10;fontColor=#4B5563;labelBackgroundColor=#FFFFFF;curved=1;" target="comp" value="Who carries the&lt;br&gt;compliance obligation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="comp" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#9CA3AF;fontSize=10;fontColor=#4B5563;labelBackgroundColor=#FFFFFF;curved=1;" target="sec" value="Security baselines as&lt;br&gt;a condition of compliance">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="energy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontColor=#1F2937;" value="&lt;b&gt;Cross-cutting: Energy use&lt;/b&gt;  |  Measured consumption informs zoning, grid impact, emissions, and scale thresholds" vertex="1">
+          <mxGeometry height="40" width="900" x="150" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="actors" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;dashed=1;fontSize=12;fontColor=#374151;" value="&lt;b&gt;Parties:&lt;/b&gt;  Operator  |  Household  |  Platform  |  Renter  |  ISP  |  Municipality and utility  |  Provincial and federal regulators" vertex="1">
+          <mxGeometry height="40" width="900" x="150" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="text;html=1;align=center;fontSize=10;fontColor=#9CA3AF;" value="HomeNodes  |  homenodes.ca  |  CC BY 4.0" vertex="1">
+          <mxGeometry height="20" width="300" x="450" y="830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
