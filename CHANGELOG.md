@@ -21,3 +21,4 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - Project roadmap (ROADMAP.md)
 - Risk register (RISK_REGISTER.md)
 - Ethics statement (ETHICS.md)
+- Governance framework map (diagrams/)
