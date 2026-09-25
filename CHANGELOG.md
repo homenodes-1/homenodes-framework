@@ -7,7 +7,7 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 ## [Unreleased]
 
 ### Planned
-- Literature review of existing compute governance proposals
+
 
 ## [v0.1] - 2026-09-25
 
@@ -17,3 +17,4 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - CC BY 4.0 license
 - Gap analysis against NIST, IEEE, and Canadian privacy law
 - Framework outline with five domain headings (drafts/HomeNodes-Framework-v0.1.md)
+- Literature review of existing compute governance proposals
