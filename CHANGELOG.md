@@ -15,6 +15,7 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - Distribution models draft (drafts/distribution-models.md)
 - Risk register: R16 (acceleration risk) and R17 (findings that could help avoid oversight)
 - Ethics statement: acceleration risk section linking to RESEARCH-LIMITS.md in homenodes-poc
+- README: link to the Phase 1 budget in homenodes-poc
 
 ### Fixed
 - Ethics statement: completed the security incident procedure, which was cut off
