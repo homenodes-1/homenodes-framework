@@ -9,6 +9,17 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 ### Planned
 
 
+## 2026-09-28
+
+### Added
+- Distribution models draft (drafts/distribution-models.md)
+- Risk register: R16 (acceleration risk) and R17 (findings that could help avoid oversight)
+- Ethics statement: acceleration risk section linking to RESEARCH-LIMITS.md in homenodes-poc
+
+### Fixed
+- Ethics statement: completed the security incident procedure, which was cut off
+- Risk register: completed R15, which was cut off
+
 ## [v0.1] - 2026-09-25
 
 ### Added
@@ -22,5 +33,3 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - Risk register (RISK_REGISTER.md)
 - Ethics statement (ETHICS.md)
 - Governance framework map (diagrams/)
-
-- 2026-09-28: Added drafts/distribution-models.md (first draft).
