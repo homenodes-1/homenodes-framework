@@ -30,6 +30,7 @@ Documents use v0.x numbering during drafting. Each revision is recorded in CHANG
 
 ## Related
 
+- Phase 1 budget and milestones: [BUDGET.md](https://github.com/homenodes-1/homenodes-poc/blob/main/BUDGET.md) in homenodes-poc
 - Project site: [homenodes.ca](https://homenodes.ca)
 - Contact: research@homenodes.ca
 
