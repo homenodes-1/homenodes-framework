@@ -1,6 +1,6 @@
 # Risk Register
 
-**Last updated:** 2026-09-25
+**Last updated:** 2026-09-28
 **Review cycle:** Monthly during Phase 1, then at each phase transition
 
 Likelihood and impact are rated Low, Medium, or High.
@@ -38,4 +38,6 @@ Likelihood and impact are rated Low, Medium, or High.
 |---|---|---|---|---|---|
 | R13 | Published data or configuration reveals household location, patterns, or network details | Medium | High | Measure only the node circuit. Sanitize all configuration files and diagrams. No street address or identifying photos published. | Open |
 | R14 | Energy measurements are inaccurate | Medium | Medium | Document measurement method and device accuracy. Cross-check against the utility meter over a fixed period. | Open |
-| R15 | Perceived conflict of interest from host earnings | Low | Medium | Disclose earnings in project reporting. Apply
+| R15 | Perceived conflict of interest from host earnings | Low | Medium | Disclose earnings in project reporting. Apply Phase 1 earnings to project costs. Phase 2 participants receive earnings directly under a written protocol. | Open |
+| R16 | The project adds compute to a public marketplace and is read as encouraging residential hosting | Medium | Medium | Single consumer GPU. No promotion of hosting, no scaling beyond ten research homes, no commercial product, and nodes removed at the end of each study period. See [RESEARCH-LIMITS.md](https://github.com/homenodes-1/homenodes-poc/blob/main/RESEARCH-LIMITS.md). | Open |
+| R17 | Published findings help someone avoid oversight (for example, which workloads cannot be identified from power data) | Low | High | Share sensitive findings with compute governance researchers before publication. Publish at the level of detail needed for policy, not for evasion. | Open |
