@@ -20,9 +20,10 @@ Likelihood and impact are rated Low, Medium, or High.
 |---|---|---|---|---|---|
 | R5 | Node is rarely rented, producing little workload data | Medium | High | Competitive pricing, VM support, and verification. If rentals are low, run documented benchmark workloads to generate load and energy data. Low demand is itself a reportable finding. | Open |
 | R6 | Node does not achieve Vast.ai verification | Medium | Medium | Meet published requirements before listing. Unverified machines remain rentable. Document the verification process either way. | Open |
-| R7 | Residential ISP terms prohibit hosting third-party workloads | Medium | High | Review terms before listing. Contact the ISP if unclear. Record the outcome as evidence for the liability and compliance domains. | Open |
+| R7 | Residential ISP terms prohibit hosting third-party workloads | High | Medium | Confirmed 2026-09-28: the incumbent residential terms prohibit servers and commercial use (gap log G-001 in homenodes-poc). A local reseller on the same network confirmed its terms allow servers for commercial use, and the node will use a separate line from that provider. Public IP and inbound port access to be confirmed before listing. No live trial on a non-compliant connection. | Open |
 | R8 | Connection is behind carrier-grade NAT, which the platform does not support | Low | High | Confirm public IPv4 address before purchasing hardware. | Open |
 | R9 | Platform changes host terms, requirements, or supported OS | Medium | Medium | Version all documentation. Treat platform changes as evidence of platform-as-regulator dynamics. | Open |
+| R18 | The project depends on a single compute platform that proves unsuitable (connectivity requirements, hardware limits, or terms) | Medium | Medium | Platform treated as a research variable. RQ2 and RQ3 run on the project's own workloads. RQ1 uses a desk comparison of three platform types plus a live trial on whichever platform fits a compliant connection. | Open |
 
 ## Security and safety
 
