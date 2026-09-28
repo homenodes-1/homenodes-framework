@@ -1,6 +1,6 @@
 # Ethics Statement
 
-**Last updated:** 2026-09-25
+**Last updated:** 2026-09-28
 **Contact:** research@homenodes.ca
 
 ## Principles
@@ -53,4 +53,12 @@ Before any additional households take part:
 
 If a security incident is suspected on the node:
 
-1. **Contain.** Suspend the platform listing and disconnect the
+1. **Contain.** Suspend the platform listing and disconnect the node from the network.
+2. **Preserve.** Keep firewall and system logs. Do not inspect renter workload contents.
+3. **Report.** Notify the platform. Report to law enforcement or the relevant authority where required.
+4. **Review.** Record what happened, the cause, and what was changed.
+5. **Disclose.** Publish a summary in the build log once it is safe to do so, without details that could expose the household or help someone repeat the incident.
+
+## Acceleration risk and research limits
+
+Running a node on a public compute marketplace adds capacity and could be read as encouraging residential hosting. The project's limits on promotion, scale, commercial activity, operating period, and publication of findings that could help someone avoid oversight are set out in [RESEARCH-LIMITS.md](https://github.com/homenodes-1/homenodes-poc/blob/main/RESEARCH-LIMITS.md) in the proof-of-concept repository.
