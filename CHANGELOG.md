@@ -22,3 +22,5 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - Risk register (RISK_REGISTER.md)
 - Ethics statement (ETHICS.md)
 - Governance framework map (diagrams/)
+
+- 2026-09-28: Added drafts/distribution-models.md (first draft).
