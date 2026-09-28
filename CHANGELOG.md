@@ -16,6 +16,8 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 - Risk register: R16 (acceleration risk) and R17 (findings that could help avoid oversight)
 - Ethics statement: acceleration risk section linking to RESEARCH-LIMITS.md in homenodes-poc
 - README: link to the Phase 1 budget in homenodes-poc
+- Risk register: R7 confirmed (incumbent residential terms prohibit hosting) and mitigated with a separate line from a provider that permits it. R18 added (dependence on a single compute platform)
+- Risk register: R7 raised to High after the residential ISP terms were confirmed to prohibit hosting. R18 added (dependence on a single compute platform)
 
 ### Fixed
 - Ethics statement: completed the security incident procedure, which was cut off
