@@ -1,16 +1,18 @@
-# HomeNodes Governance Framework
+# HomeNodes
 
-A governance and policy framework for residential AI compute nodes.
+Research on the risks of AI compute moving into homes.
 
 ## Purpose
 
-AI compute is starting to move into homes. Consumer hardware can now join distributed compute networks and run AI workloads from a residential connection. Current AI oversight frameworks focus on data centres and large providers. They do not address what happens when compute sits in a house on a residential street.
+Consumer hardware can now rent out GPU time on distributed compute marketplaces and run AI workloads from a residential connection. Current compute oversight assumes compute sits in data centres, where cloud provider checks, hardware reporting, and energy monitoring can reach it. None of those tools were designed for compute in a house on a residential street.
 
-This framework is intended to fill that gap.
+HomeNodes studies what changes when AI compute is spread across many homes: what a host can see about the workloads on their hardware, whether power and network data can identify those workloads, and where existing rules stop applying. Phase 1 measures this on a single live node (see the [measurement protocol](https://github.com/homenodes-1/homenodes-poc/blob/main/PROTOCOL.md)).
+
+This repository holds the governance side of that work: the gap analysis, the risk register, and the findings organized by domain.
 
 ## Scope
 
-The framework covers five governance domains:
+Findings are organized under five governance domains:
 
 1. **Security standards.** Minimum technical controls for a node on a residential network.
 2. **Privacy obligations.** Data handled by the node, the household, and neighbours.
@@ -22,7 +24,7 @@ The framework covers five governance domains:
 
 **Current version:** v0.1 (outline)
 
-The framework is in early development. Drafts are informed by a proof of concept node operating in Medicine Hat, Alberta. See [homenodes-poc](../../../homenodes-poc) for build and configuration details.
+Drafts are in early development and are informed by a proof of concept node in Medicine Hat, Alberta. See [homenodes-poc](../../../homenodes-poc) for build and configuration details.
 
 ## Versioning
 
