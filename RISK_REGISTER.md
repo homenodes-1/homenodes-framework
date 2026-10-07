@@ -1,6 +1,6 @@
 # Risk Register
 
-**Last updated:** 2026-09-28
+**Last updated:** 2026-10-07
 **Review cycle:** Monthly during Phase 1, then at each phase transition
 
 Likelihood and impact are rated Low, Medium, or High.
@@ -10,7 +10,7 @@ Likelihood and impact are rated Low, Medium, or High.
 | ID | Risk | Likelihood | Impact | Mitigation | Status |
 |---|---|---|---|---|---|
 | R1 | Hardware prices rise or stock is unavailable due to GPU and memory shortages | High | Medium | Fixed budget ceiling. Alternative GPU options identified (used RTX 4090). Buy critical components first when stock appears. | Open |
-| R2 | Project lead capacity is limited by a full-time role | Medium | Medium | Phase 1 scoped to 12 weeks with part-time effort. Documentation built incrementally. Milestones reviewed monthly. | Open |
+| R2 | Project lead capacity is limited by a full-time role | Medium | Medium | Phase 1 scoped to 16 weeks with part-time effort. Documentation built incrementally. Milestones reviewed monthly. | Open |
 | R3 | Expert interviewees are slow to respond or unavailable | Medium | Medium | Begin outreach before hardware arrives. Draw on professional and IEEE section networks. Accept written responses as an alternative. | Open |
 | R4 | Phase 2 households cannot be recruited | Medium | High | Recruit through the website intake form and local networks. Proceed with fewer homes if needed and document the limitation. | Open |
 
