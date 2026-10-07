@@ -13,6 +13,7 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 
 ### Changed
 - README: purpose rewritten around studying the risks of residential AI compute. The five domains are now described as how findings are organized
+- ROADMAP and risk register R2: Phase 1 length corrected from 12 to 16 weeks to match the Phase 1 budget
 
 ## 2026-09-28
 
