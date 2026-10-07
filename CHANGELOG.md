@@ -9,6 +9,11 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 ### Planned
 
 
+## 2026-10-07
+
+### Changed
+- README: purpose rewritten around studying the risks of residential AI compute. The five domains are now described as how findings are organized
+
 ## 2026-09-28
 
 ### Added
