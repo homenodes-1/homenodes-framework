@@ -1,6 +1,6 @@
 # HomeNodes Roadmap
 
-**Last updated:** 2026-09-25
+**Last updated:** 2026-10-07
 
 Target dates are planning estimates. Phase 2 onward depends on funding and Phase 1 results.
 
@@ -15,7 +15,7 @@ Target dates are planning estimates. Phase 2 onward depends on funding and Phase
 
 ## Phase 1: Proof of concept and draft framework
 
-**Goal:** A single operating residential node, and a draft framework informed by it within 12 weeks.
+**Goal:** A single operating residential node, and a draft framework informed by it within 16 weeks of the funding decision.
 
 | Milestone | Target |
 |---|---|
