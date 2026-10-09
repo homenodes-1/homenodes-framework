@@ -1,6 +1,6 @@
 # HomeNodes Roadmap
 
-**Last updated:** 2026-10-07
+**Last updated:** 2026-10-09
 
 Target dates are planning estimates. Phase 2 onward depends on funding and Phase 1 results.
 
@@ -8,14 +8,16 @@ Target dates are planning estimates. Phase 2 onward depends on funding and Phase
 
 | Phase | Focus | Target dates | Status |
 |---|---|---|---|
-| 1 | Proof of concept and draft framework | Oct 2026 to Jan 2027 | In progress |
-| 2 | City expansion (5 to 10 homes) | Feb 2027 to Jun 2027 | Planned |
+| 1 | Single-node study and draft framework | Oct 2026 to Jan 2027 | In progress |
+| 2 | Multi-home study (5 to 10 homes) | Feb 2027 to Jun 2027 | Planned |
 | 3 | Governance framework v1.0 | Jun 2027 to Sep 2027 | Planned |
 | 4 | Publication and policy engagement | Sep 2027 to Dec 2027 | Planned |
 
-## Phase 1: Proof of concept and draft framework
+## Phase 1: Single-node study and draft framework
 
-**Goal:** A single operating residential node, and a draft framework informed by it within 16 weeks of the funding decision.
+**Goal:** One residential node measured under a protocol fixed in advance, and a draft framework informed by it, within 16 weeks of the funding decision.
+
+Detail: [Phase 1 overview](https://github.com/homenodes-1/homenodes-poc/blob/main/PHASE-1.md), [protocol](https://github.com/homenodes-1/homenodes-poc/blob/main/PROTOCOL.md), [budget](https://github.com/homenodes-1/homenodes-poc/blob/main/BUDGET.md).
 
 | Milestone | Target |
 |---|---|
@@ -31,18 +33,21 @@ Target dates are planning estimates. Phase 2 onward depends on funding and Phase
 
 **Outputs:** Draft framework v0.5, public energy dataset, documented build and security configuration.
 
-## Phase 2: City expansion
+## Phase 2: Multi-home study
 
-**Goal:** Test the draft framework across different households and energy profiles in Medicine Hat.
+**Goal:** Repeat the Phase 1 measurements in 5 to 10 Medicine Hat households with different energy profiles, using identical loaned hardware, so that findings about residential compute can be separated from findings about one home. This is a research sample with a fixed end date, not an expansion.
+
+Detail: [Phase 2 plan](PHASE-2.md), [planning estimate](PHASE-2-BUDGET.md).
 
 | Milestone | Target |
 |---|---|
-| Research protocol and participant consent process | Feb 2027 |
-| Recruit 5 to 10 households (gas-primary, solar-supplemented, grid-primary) | Mar 2027 |
-| Nodes operating under protocol | Apr to Jun 2027 |
-| Engagement with the City of Medicine Hat utility and planning departments | Ongoing |
+| Phase 2 protocol written, independent ethics review complete | Feb 2027 |
+| 5 to 10 households recruited (gas-primary, solar-supplemented, grid-primary), written consent signed | Mar 2027 |
+| Loaned kit installed, baseline recorded in every home | Apr 2027 |
+| Eight weeks of operation under protocol | May to Jun 2027 |
+| Hardware removed, results and data published | End of Jun 2027 |
 
-**Outputs:** Multi-home energy and operations data, framework revisions based on real operator experience.
+**Outputs:** Energy summary by household profile, identifiability results by home, gap log across households, anonymized household summary.
 
 ## Phase 3: Governance framework v1.0
 
