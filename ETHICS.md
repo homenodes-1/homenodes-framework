@@ -1,6 +1,6 @@
 # Ethics Statement
 
-**Last updated:** 2026-09-28
+**Last updated:** 2026-10-09
 **Contact:** research@homenodes.ca
 
 ## Principles
@@ -44,10 +44,15 @@ All adult members of the household are informed about the project and agree to t
 
 Before any additional households take part:
 
-- Independent ethics review will be sought for the research protocol.
+- Independent ethics review of the research protocol will be complete. No household is recruited before it is.
 - Participants will give written informed consent and may withdraw at any time, with their data removed on request.
 - Participant data will be de-identified before publication. No participant addresses will be published.
-- Participants will own their hardware and receive any host earnings directly.
+- The project owns the hardware and lends it to each household for the study. It is removed when the study ends.
+- The project operates the nodes. Rental income is recorded publicly and applied to project costs, as in Phase 1.
+- Households are reimbursed for the electricity the node uses. Any payment beyond that is set by the ethics review.
+- Whole-home energy use is not collected unless the ethics review approves it and the household gives separate written consent.
+
+The Phase 2 design is set out in [PHASE-2.md](PHASE-2.md).
 
 ## Security incidents
 
