@@ -9,6 +9,14 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 ### Planned
 
 
+## 2026-10-09
+
+### Added
+- Threat model draft (drafts/threat-model-v0.1.md): what compute oversight assumes, four ways residential compute could weaken it, what the project is not claiming, and what Phase 1 will show
+
+### Changed
+- README: purpose section links to the threat model
+
 ## 2026-10-07
 
 ### Changed
