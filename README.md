@@ -10,6 +10,8 @@ HomeNodes studies what changes when AI compute is spread across many homes: what
 
 This repository holds the governance side of that work: the threat model, the gap analysis, the risk register, and the findings organized by domain. Start with the [threat model](drafts/threat-model-v0.1.md).
 
+The work runs in phases, set out in the [roadmap](ROADMAP.md). Phase 1 is a single-node study ([overview](https://github.com/homenodes-1/homenodes-poc/blob/main/PHASE-1.md)). Phase 2 is a multi-home study of 5 to 10 homes ([plan](PHASE-2.md), [planning estimate](PHASE-2-BUDGET.md)).
+
 ## Scope
 
 Findings are organized under five governance domains:
