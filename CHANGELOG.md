@@ -12,9 +12,16 @@ Versions follow v0.x numbering during drafting. Dates use YYYY-MM-DD.
 ## 2026-10-09
 
 ### Added
+- Phase 2 plan (PHASE-2.md): purpose, questions, design, schedule, limits, cost, open decisions
+- Phase 2 planning estimate (PHASE-2-BUDGET.md): five-home and ten-home scenarios with assumptions
+- Phase 2 overview diagram (diagrams/phase-2-overview.svg and .png)
 - Threat model draft (drafts/threat-model-v0.1.md): what compute oversight assumes, four ways residential compute could weaken it, what the project is not claiming, and what Phase 1 will show
 
 ### Changed
+- ROADMAP: Phase 1 renamed "Single-node study". Phase 2 renamed "Multi-home study" and rewritten as a fixed research sample with milestones. Links added to the phase documents
+- ETHICS: Phase 2 participants section revised. Hardware is project-owned and loaned, the project operates the nodes, households are reimbursed for electricity. Previously participants were to own the hardware and receive host earnings
+- Risk register R15: updated to match
+- README: phases summarized with links
 - README: purpose section links to the threat model
 
 ## 2026-10-07
