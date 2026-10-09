@@ -8,7 +8,7 @@ Consumer hardware can now rent out GPU time on distributed compute marketplaces 
 
 HomeNodes studies what changes when AI compute is spread across many homes: what a host can see about the workloads on their hardware, whether power and network data can identify those workloads, and where existing rules stop applying. Phase 1 measures this on a single live node (see the [measurement protocol](https://github.com/homenodes-1/homenodes-poc/blob/main/PROTOCOL.md)).
 
-This repository holds the governance side of that work: the gap analysis, the risk register, and the findings organized by domain.
+This repository holds the governance side of that work: the threat model, the gap analysis, the risk register, and the findings organized by domain. Start with the [threat model](drafts/threat-model-v0.1.md).
 
 ## Scope
 
